@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class oddSeries {
+
+   public static void main(String[] args)
+
+{
+   int i,n;
+
+   System.out.print("Input number of terms is: ");
+{
+   Scanner sc = new Scanner(System.in);
+		    n = sc.nextInt();
+  System.out.println ("\n The odd numbers are :");
+   for(i=1;i<=n;i++)
+
+   {
+     System.out.println (2*i-1);
+     
+   }
+  
+
+}
+}
+}
